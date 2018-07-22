@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Catalog"
+    android:orientation="vertical"
+    android:background="@drawable/pic"
+    android:padding="10dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Hola"
+    android:textSize="25sp"
+    android:fontFamily="casual"
+    android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:id="@+id/cName"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="My Circles"
+        android:textSize="40sp"
+        android:id="@+id/cTask1"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Join Circle"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/cTask2"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Create new circle"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/cTask3"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="My Profile"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/cTask4"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+
+</LinearLayout>

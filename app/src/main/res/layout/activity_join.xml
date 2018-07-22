@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/pic">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textSize="50sp"
+        android:text="Join Circle"
+        android:paddingBottom="5dp"
+        android:gravity="bottom"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="70sp"
+        android:hint="Enter circle name"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/jName"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="70sp"
+        android:hint="Enter circle key"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/jKey"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join"
+        android:id="@+id/circleJoin"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+</LinearLayout>
